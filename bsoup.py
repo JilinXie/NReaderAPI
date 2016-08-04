@@ -1,12 +1,17 @@
+# -*- coding: utf-8 -*-
+
 import urllib
 import urllib2
 import lxml
 from bs4 import BeautifulSoup
 
+'''
 #coding:utf-8
-import sys 
-reload(sys) 
+import sys
+reload(sys)
 sys.setdefaultencoding("utf-8")
+'''
+
 
 def execute():
     url = "http://www.biquge.la/xiaoshuodaquan/"
