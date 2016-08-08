@@ -16,7 +16,7 @@ def execute():
     #print result.url
     #print result.text
 
-    soup = BeautifulSoup(result.text,"lxml")
+    soup = BeautifulSoup(result.text,"html5lib")
 
     print soup.prettify()
     print soup.title
